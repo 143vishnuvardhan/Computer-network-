@@ -1,0 +1,17 @@
+# Vectors
+vec <- c(10, 20, 30)
+
+# Matrices
+mat <- matrix(1:9, nrow = 3, ncol = 3)
+
+# Function
+func <- function(x) {
+  return(x^2)
+}
+
+# Create list
+list_data <- list(Vector = vec, Matrix = mat, Function = func)
+
+# Print the list
+print("List containing vector, matrix, and function:")
+print(list_data)
